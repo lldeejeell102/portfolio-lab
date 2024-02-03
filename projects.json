@@ -1,15 +1,21 @@
 [
     {
-      "name": "project1",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Currency Exchanger",
+      "live": "https://currency-exchange-two-umber.vercel.app/",
+      "git": "https://github.com/lldeejeell102/unit1-project1",
+      "image": "https://i.imgur.com/eTcTBU6.png"
     },
     {
-      "name": "project2",
-      "live": "https://app.netlify.app/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "name": "Movied",
+      "live": "https://dj-unit2-project2.onrender.com/user/signup",
+      "git": "https://github.com/lldeejeell102/unit2-project2",
+      "image": "https://i.imgur.com/LMyPhv2.png"
+    },
+    {
+      "name": "Booklist",
+      "live": "https://booklist-7ivi.onrender.com/books",
+      "git": "https://github.com/lldeejeell102/booklist",
+      "image": "https://i.imgur.com/2JR2wKH.png"
     }
   ]
   
