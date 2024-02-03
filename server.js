@@ -1,36 +1,37 @@
-// Import Dependencies
+// DEPENDENCIES
 const express = require("express");
 const cors = require("cors");
 
-// Import JSON files
 const projects = require("./projects.json");
 const about = require("./about.json");
 
-// Create our app object
+// APP OBJECT
 const app = express();
 
-// set up middleware
+
+// MIDDLEWARE
 app.use(cors());
 
-//home route for testing our app
+//Home Route
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-// route for retrieving projects
+//Projects Route
 app.get("/projects", (req, res) => {
   // send projects via JSON
   res.json(projects);
 });
 
-// route for retrieving about info
+//About Route
 app.get("/about", (req, res) => {
   // send projects via JSON
   res.json(about);
 });
 
+
 //declare a variable for our port number
 const PORT = process.env.PORT || 4000;
 
-// turn on the server listener
+//SERVER LISTENER
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
